@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.tunaasieunhat.onluyennhakhoa",
+        "sha256_cert_fingerprints": ["80:24:78:D7:C5:1E:71:56:E9:10:5C:8C:A7:33:92:78:DA:C8:8F:8C:3C:09:33:44:3C:4F:CB:5F:2F:E4:41:89"]
+      }
+    }]

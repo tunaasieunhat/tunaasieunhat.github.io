@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ôn Luyện Nha Khoa</title>
+<meta name="description" content="Ứng dụng ôn thi Răng Hàm Mặt: bản Offline dùng không cần mạng, bản Online có AI soạn câu hỏi.">
+<link rel="icon" type="image/png" href="on-luyen-nha-khoa/icon-192.png">
+<style>
+  :root{--wall:#EEF7F3;--tile:#DCEEE7;--ink:#12332E;--muted:#4F6D69;--scrub-deep:#0B544C;--gum:#CF4C64;--gum-deep:#9E3349;--ok:#1C8A5C;--paper:#FFFDF8;color-scheme:light}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:grid;place-items:center;padding:24px 16px;background:var(--wall) linear-gradient(var(--tile) 1px,transparent 1px) 0 0/38px 38px;color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;text-align:center}
+  main{max-width:440px;display:flex;flex-direction:column;align-items:center;gap:14px}
+  img{width:84px;height:84px;border-radius:20px}
+  h1{margin:0;font-size:clamp(2.2rem,9vw,3rem);line-height:1;color:var(--scrub-deep)}
+  h1 span{color:var(--gum)}
+  p{margin:0;color:var(--muted);line-height:1.5}
+  .btns{display:grid;gap:12px;width:100%;margin-top:8px}
+  a{display:block;padding:14px 18px;border-radius:14px;text-decoration:none;font-weight:700;border:2px solid;background:var(--paper);color:var(--ink);box-shadow:0 4px 0 currentColor}
+  a small{display:block;font-weight:500;color:var(--muted);margin-top:2px}
+  a.off{border-color:var(--gum-deep);background:var(--gum);color:#fff;box-shadow:0 4px 0 var(--gum-deep)}
+  a.off small{color:#FCE4E8}
+  a.on{border-color:var(--ok);box-shadow:0 4px 0 var(--ok)}
+  a:focus-visible{outline:3px solid var(--scrub-deep);outline-offset:3px}
+</style>
+</head>
+<body>
+<main>
+  <img src="on-luyen-nha-khoa/icon-192.png" alt="">
+  <h1>Ôn Luyện <span>Nha Khoa</span></h1>
+  <p>Ôn thi Răng Hàm Mặt: trắc nghiệm có hình minh hoạ, tóm tắt lý thuyết, flashcard.</p>
+  <div class="btns">
+    <a class="off" href="on-luyen-nha-khoa/">Bản Offline<small>Dùng được cả khi không có mạng</small></a>
+    <a class="on" href="on-luyen-nha-khoa/online/">Bản Online<small>Có AI soạn câu hỏi (mở trên Claude)</small></a>
+  </div>
+</main>
+</body>
+</html>
