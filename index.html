@@ -237,6 +237,7 @@ section.blk{padding:96px 0}
   .subj td:first-child small{font-size:.78rem}
   .ctas .btn{width:100%;justify-content:center}
 }
+.tag-beta{display:inline-block;vertical-align:.3em;margin-left:8px;font-size:.42em;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:#FFD66B;color:#7A5600;border-radius:7px;padding:3px 8px}
 </style>
 </head>
 <body>
@@ -278,18 +279,18 @@ section.blk{padding:96px 0}
       <div class="ctas">
         <a class="btn btn-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 20h14"/></svg>
-          <span>Tải app Android<small>File APK, 14 MB</small></span>
+          <span>Tải app Android<small>File APK, 25 MB</small></span>
         </a>
         <a class="btn btn-web" href="on-luyen-nha-khoa/">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.6 3.8 5.6 3.8 9s-1.2 6.4-3.8 9c-2.6-2.6-3.8-5.6-3.8-9S9.4 5.6 12 3z"/></svg>
           <span>Mở bản web<small>iPhone, máy tính</small></span>
         </a>
       </div>
-      <p class="ver">Bản <b>2.4</b>, ra ngày 22/10/2026. Miễn phí, không quảng cáo.</p>
+      <p class="ver">Bản <b>2.5</b>, ra ngày 22/10/2026. Miễn phí, không quảng cáo.</p>
     </div>
     <div class="shelf">
       <div class="phone l"><img src="img/quiz-answer.webp" alt="Màn hình làm câu hỏi: chọn sai được báo đáp án đúng kèm giải thích" width="600" height="1298"></div>
-      <div class="phone mid"><img src="img/lobby.webp" alt="Sảnh của app: Bắt đầu, Phòng Thi, Ôn tập lý thuyết, Thêm câu hỏi, Flashcard" width="600" height="1298"></div>
+      <div class="phone mid"><img src="img/lobby.webp" alt="Sảnh của app: Ôn Luyện Kiến Thức và Mô Phỏng Nha Khoa" width="600" height="1298"></div>
       <div class="phone r"><img src="img/exam.webp" alt="Phòng Thi: đồng hồ đếm ngược, câu 5 trên 60" width="600" height="1298"></div>
     </div>
     <div class="counter" aria-hidden="true"></div>
@@ -340,6 +341,18 @@ section.blk{padding:96px 0}
           </ul>
         </div>
       </article>
+      <article class="feat flip" data-rv>
+        <div class="feat-shot phone"><img src="img/sim.webp" alt="Mô Phỏng Nha Khoa: bác sĩ hỏi bệnh nhân sưng má về dị ứng thuốc, app chấm điểm và giải thích" width="600" height="1298" loading="lazy"></div>
+        <div class="feat-txt">
+          <h3>Mô Phỏng Nha Khoa<span class="tag-beta">Beta</span></h3>
+          <p class="one">Vào vai bác sĩ: hỏi bệnh, khám, chụp phim, chẩn đoán và điều trị.</p>
+          <ul class="facts">
+            <li style="--i:0">6 ca bệnh, hội thoại như ở phòng khám thật</li>
+            <li style="--i:1">Chọn sai là bệnh nhân gặp hậu quả</li>
+            <li style="--i:2">Chấm điểm, xem lại từng bước kèm giải thích</li>
+          </ul>
+        </div>
+      </article>
 
       <div class="tray" data-rv>
         <h3>Thêm chút tiện</h3>
@@ -386,14 +399,22 @@ section.blk{padding:96px 0}
         <div class="sheet">
           <ol class="log" reversed>
             <li style="--i:0">
-              <div class="when"><b>2.4</b><time datetime="2026-10-22">22/10/2026</time><span class="new">Mới nhất</span></div>
+              <div class="when"><b>2.5</b><time datetime="2026-10-22">22/10/2026</time><span class="new">Mới nhất</span></div>
+              <ul>
+                <li>Mô Phỏng Nha Khoa (beta): 6 ca bệnh</li>
+                <li>Hỏi bệnh, khám, chẩn đoán, điều trị như thật</li>
+                <li>Menu chính gọn còn 2 mục</li>
+              </ul>
+            </li>
+            <li style="--i:1">
+              <div class="when"><b>2.4</b><time datetime="2026-10-22">22/10/2026</time></div>
               <ul>
                 <li>Anh văn chuyên ngành 2 viết lại, dễ hiểu hơn</li>
                 <li>Có phiên âm, ví dụ, từ dễ nhầm, đọc hiểu</li>
                 <li>Giáo trình trọn bộ 15 Unit (1 file PDF)</li>
               </ul>
             </li>
-            <li style="--i:1">
+            <li style="--i:2">
               <div class="when"><b>2.3</b><time datetime="2026-10-21">21/10/2026</time></div>
               <ul>
                 <li>Giáo trình trọn bộ Mắt, Nhi khoa (1 file PDF)</li>
@@ -401,7 +422,7 @@ section.blk{padding:96px 0}
                 <li>Vẫn đọc, tải từng bài như cũ</li>
               </ul>
             </li>
-            <li style="--i:2">
+            <li style="--i:3">
               <div class="when"><b>2.1.2</b><time datetime="2026-10-21">21/10/2026</time></div>
               <ul>
                 <li>Giáo trình Nhi khoa viết lại, dễ hiểu hơn</li>
@@ -409,7 +430,7 @@ section.blk{padding:96px 0}
                 <li>Liên hệ Răng Hàm Mặt trong từng bài</li>
               </ul>
             </li>
-            <li style="--i:3">
+            <li style="--i:4">
               <div class="when"><b>2.1.1</b><time datetime="2026-10-21">21/10/2026</time></div>
               <ul>
                 <li>Giáo trình Mắt viết lại, dễ hiểu hơn</li>
@@ -417,7 +438,7 @@ section.blk{padding:96px 0}
                 <li>Tiêu đề phụ gọn hơn</li>
               </ul>
             </li>
-            <li style="--i:4">
+            <li style="--i:5">
               <div class="when"><b>2.0.1</b><time datetime="2026-10-21">21/10/2026</time></div>
               <ul>
                 <li>Vật liệu nha khoa, Anh văn đủ 3 mức độ</li>
@@ -425,7 +446,7 @@ section.blk{padding:96px 0}
                 <li>Nhạc nền chill mùa đông</li>
               </ul>
             </li>
-            <li style="--i:5">
+            <li style="--i:6">
               <div class="when"><b>2.0</b><time datetime="2026-10-20">20/10/2026</time></div>
               <ul>
                 <li>Ra mắt Phòng Thi</li>
@@ -433,19 +454,19 @@ section.blk{padding:96px 0}
                 <li>Giao diện mùa đông</li>
               </ul>
             </li>
-            <li style="--i:6">
+            <li style="--i:7">
               <div class="when"><b>1.2</b><time datetime="2026-10-20">20/10/2026</time></div>
               <ul><li>Thêm môn Tai - Mũi - Họng (6 bài)</li></ul>
             </li>
-            <li style="--i:7">
+            <li style="--i:8">
               <div class="when"><b>1.1</b><time datetime="2026-10-20">20/10/2026</time></div>
               <ul><li>Thêm môn Mắt (5 bài)</li></ul>
             </li>
-            <li style="--i:8">
+            <li style="--i:9">
               <div class="when"><b>1.0</b><time datetime="2026-10-20">20/10/2026</time></div>
               <ul><li>Tên mới Ôn Luyện Nha Khoa, tự báo khi có bản mới</li></ul>
             </li>
-            <li style="--i:9">
+            <li style="--i:10">
               <div class="when"><b>Bản đầu</b><time datetime="2026-10-19">19/10/2026</time></div>
               <ul><li>App Android chạy offline, 3 môn đầu tiên</li></ul>
             </li>
@@ -472,7 +493,7 @@ section.blk{padding:96px 0}
           </div>
           <a class="btn btn-dl" href="https://github.com/tunaasieunhat/on-luyen-nha-khoa/releases/latest/download/OnLuyenNhaKhoa.apk">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 20h14"/></svg>
-            <span>Tải OnLuyenNhaKhoa.apk<small>Version 2.4</small></span>
+            <span>Tải OnLuyenNhaKhoa.apk<small>Version 2.5</small></span>
           </a>
           <ol class="steps">
             <li>Tải file APK</li>
